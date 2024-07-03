@@ -31,7 +31,7 @@ Setup a web server with an API endpoint going to your custom API server, then re
 
 With the custom servers that me and my buddies were running we needed some way to patch different parts of the UI. Discord's app is written in Node then "built" using Webpack into smaller files that are shoved in an `/assets` folder of the website.
 
-{insert 05-17-2017 source ss here}
+![NanaZip 07032024_1720040771](https://github.com/samicrusader/yukino/assets/89530830/af7b0074-bd2a-4cba-bd6a-f7b165f6fae6)
 
 The original author did a modification to a script that handled Webpack that would allow us to override exports from a Webpack module, allowing us to change resources by overwriting them with custom versions included in the patcher script.
 
